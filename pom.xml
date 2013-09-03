@@ -8,7 +8,7 @@
 	</parent>
 	
 	<artifactId>lexml-renderer-pdf</artifactId>
-	<version>0.4.4-SNAPSHOT</version>
+	<version>0.5.0</version>
 	<name>lexml-renderer-pdf</name>
 	<description>Renderizador LexML em PDF</description>
 	
@@ -16,7 +16,7 @@
 		<url>https://github.com/lexml/${project.artifactId}</url>
 		<developerConnection>scm:git:https://github.com/lexml/${project.artifactId}.git</developerConnection>
 		<connection>scm:git:https://github.com/lexml/${project.artifactId}.git</connection>
-		<tag>HEAD</tag>
+		<tag>lexml-renderer-pdf-0.5.0</tag>
 	</scm>
 	
 	<dependencies>
