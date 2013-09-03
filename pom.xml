@@ -106,7 +106,6 @@
 				</executions>
 				<configuration>
 					<doCheck>false</doCheck>
-					<doUpdate>true</doUpdate>
 				</configuration>
 			</plugin>
 			<plugin>
