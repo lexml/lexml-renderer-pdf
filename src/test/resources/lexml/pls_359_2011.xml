@@ -1,0 +1,53 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../../xsd/lexml-br-rigido.xsd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:senado.federal:projeto.lei;pls:2011-06-28;359@2011-06-28;iniciativa"/>
+    </Metadado>
+      <ProjetoNorma>
+        <Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">PROJETO DE LEI DO SENADO FEDERAL Nº 359, DE 2011</Epigrafe>
+      <Ementa id="ementa">Acrescenta parágrafo ao art. 155 do Código Penal, para prever o furto qualificado pela utilização de explosivo.</Ementa>
+      <Preambulo id="preambulo"><p>O CONGRESSO NACIONAL decreta:</p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            <p>O art. 155 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), passa a vigorar acrescido do seguinte § 6º:</p>
+            <Alteracao id="art1_cpt_alt1">
+            <Artigo notaAlteracao="NR" abreAspas="s" fechaAspas="s" id="art1_cpt_alt1_art155">
+            
+            <Rotulo>Art. 155.</Rotulo>
+            
+            <Caput id="art1_cpt_alt1_art155_cpt" textoOmitido="s">
+            
+            
+            
+            
+          </Caput><Omissis id="art1_cpt_alt1_art155_omi1"/><Paragrafo id="art1_cpt_alt1_art155_par6">
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>A pena é de reclusão, de 4 (quatro) a 10 (dez anos), e multa, se a subtração da coisa é feita com utilização de explosivo.</p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art2">
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            <p>Esta Lei entra em vigor na data da sua publicação.</p>
+            
+          </Caput>
+          </Artigo></Articulacao>
+        </Norma>
+      </ProjetoNorma>
+    </LexML>

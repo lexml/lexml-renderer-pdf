@@ -1,0 +1,160 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../../xsd/lexml-br-rigido.xsd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:senado.federal:projeto.lei;pls:2007-10-02;576@2007-10-02;iniciativa"/>
+    </Metadado>
+      <ProjetoNorma>
+        <Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">PROJETO DE LEI DO SENADO FEDERAL Nº 576, DE 2007</Epigrafe>
+      <Ementa id="ementa">Altera o art. 45 e acrescenta artigo à Lei no 9.096, de 19 de setembro de 1995, para dispor sobre as vedações aos programas de que trata o Título IV e estabelecer o acesso gratuito ao Rádio e a Televisão pelos Partidos Políticos.</Ementa>
+      <Preambulo id="preambulo"><p>O Congresso Nacional decreta:</p><p/></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            <p>O art. 45, da Lei nº 9096, de 19 de setembro de 1995, passa a vigorar com a seguinte redação:</p>
+            <Alteracao id="art1_cpt_alt1">
+            <Artigo notaAlteracao="NR" abreAspas="s" fechaAspas="s" id="art1_cpt_alt1_art45">
+            
+            <Rotulo>Art. 45.</Rotulo>
+            
+            <Caput id="art1_cpt_alt1_art45_cpt" textoOmitido="s">
+            
+            
+            
+            
+          </Caput><Omissis id="art1_cpt_alt1_art45_omi1"/><Paragrafo id="art1_cpt_alt1_art45_par1">
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>Ficada vedado, nos programas de que trata este Título:</p>
+            <Inciso id="art1_cpt_alt1_art45_par1_inc1" textoOmitido="s">
+            
+            <Rotulo>I –</Rotulo>
+            
+            
+          </Inciso><Inciso id="art1_cpt_alt1_art45_par1_inc2">
+            
+            <Rotulo>II –</Rotulo>
+            <p>a divulgação de propaganda de candidatos a cargos eletivos e a defesa de interesses pessoais dos filiados ao partido responsável pelo programa;</p>
+            
+          </Inciso><Inciso id="art1_cpt_alt1_art45_par1_inc3">
+            
+            <Rotulo>III –</Rotulo>
+            <p>a divulgação de propaganda em benefício de filiados a outros partidos ou em proveito destes;</p>
+            
+          </Inciso><Inciso id="art1_cpt_alt1_art45_par1_inc4">
+            
+            <Rotulo>IV –</Rotulo>
+            <p>a utilização de imagens ou cenas incorretas ou incompletas, efeitos ou quaisquer outros recursos que distorçam ou falseiem os fatos ou a sua comunicação.</p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art1_cpt_alt1_art45_par2" textoOmitido="s">
+            
+            <Rotulo>§ 2º</Rotulo>
+            
+            
+          </Paragrafo><Paragrafo id="art1_cpt_alt1_art45_par3">
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>Quando a representação de partido, julgada procedente, tiver por objeto as vedações a que se referem os incisos I e III, do § 1º, o Tribunal Superior Eleitoral, além da pena de cassação do direito de transmissão, a que se refere o § 2º, aplicará também multa de R$ 10.000,00 (dez mil reais) a R$ 50.000,00 (cinqüenta mil reais) ou o equivalente ao custo da propaganda, se este for maior.</p>
+            
+          </Paragrafo><Paragrafo id="art1_cpt_alt1_art45_par4">
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>A propaganda partidária, no rádio e na televisão, fica restrita aos horários gratuitos disciplinados nesta Lei, com proibição de propaganda paga.</p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art2">
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            <p>A Lei no 9.096, de 19 de setembro de 1995, passa a vigorar acrescida do seguinte art. 49.A:</p>
+            <Alteracao id="art2_cpt_alt1">
+            <Artigo abreAspas="s" fechaAspas="s" id="art2_cpt_alt1_art49">
+            
+            <Rotulo>Art. 49.</Rotulo>
+            
+            <Caput id="art2_cpt_alt1_art49_cpt">
+            
+            
+            <p><b>A</b>. O partido político com registro definitivo de seus estatutos no Tribunal Superior Eleitoral e que, a partir de sua fundação, tenha concorrido ou venha a concorrer às eleições gerais para a Câmara dos Deputados, elegendo representante, terá direito ao acesso gratuito ao Rádio e à Televisão, observado o disposto a seguir.</p>
+            
+          </Caput><Paragrafo id="art2_cpt_alt1_art49_par1">
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>Ao partido que atender ao estabelecido no caput e eleger à Câmara dos Deputados representante em, no mínimo, sete Estados e obtiver dez por cento ou mais dos votos apurados no País, não computados os brancos e os nulos, é assegurado, observadas, no que couber, as disposições do Título IV:</p>
+            
+          </Paragrafo><Paragrafo id="art2_cpt_alt1_art49_par2">
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>Ao partido que atender ao estabelecido no caput e eleger à Câmara dos Deputados representante em, no mínimo, cinco Estados e obtiver, no mínimo, cinco por cento dos votos apurados no País, não computados os brancos e os nulos, é assegurado, observadas, no que couber, as disposições do Título IV:</p>
+            <Alinea id="art2_cpt_alt1_art49_par2_ali1">
+            
+            <Rotulo>a)</Rotulo>
+            <p>a realização de um programa, em cadeia nacional, em cada semestre, com duração de quinze minutos cada, e de um programa de igual tempo nas emissoras nos Estados em que tiver elegido representante à respectiva Assembléia Legislativa;</p>
+            
+          </Alinea><Alinea id="art2_cpt_alt1_art49_par2_ali2">
+            
+            <Rotulo>b)</Rotulo>
+            <p>a utilização do tempo total de trinta minutos, por semestre, para inserções de trinta segundos ou um minuto, nas redes nacionais, e de igual tempo nas emissoras nos Estados em que tiver elegido representante à respectiva Assembléia Legislativa.</p>
+            
+          </Alinea>
+          </Paragrafo><Paragrafo id="art2_cpt_alt1_art49_par3">
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>Ao partido que atender ao estabelecido no caput e eleger à Câmara dos Deputados representante em, no mínimo, três Estados e obtiver, no mínimo, dois por cento dos votos apurados no País, não computados os brancos e os nulos, é assegurado, observadas, no que couber, as disposições do Título IV:</p>
+            <Alinea id="art2_cpt_alt1_art49_par3_ali1">
+            
+            <Rotulo>a)</Rotulo>
+            <p>a realização de um programa, em cadeia nacional, em cada semestre, com duração de dez minutos cada e de um programa de igual tempo nas emissoras nos Estados em que tiver elegido representante à respectiva Assembléia Legislativa;</p>
+            
+          </Alinea><Alinea id="art2_cpt_alt1_art49_par3_ali2">
+            
+            <Rotulo>b)</Rotulo>
+            <p>a utilização do tempo total de vinte minutos, por semestre, para inserções de trinta segundos ou um minuto, nas redes nacionais, e de igual tempo nas emissoras nos Estados em que tiver elegido representante à respectiva Assembléia Legislativa.</p>
+            
+          </Alinea>
+          </Paragrafo><Paragrafo id="art2_cpt_alt1_art49_par4">
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>Ao partido que atender ao estabelecido no caput e eleger representante à Câmara dos Deputados e obtiver menos de dois por cento dos votos apurados no País, não computados os brancos e os nulos, é assegurado, observadas, no que couber, as disposições do Título IV:</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art2_cpt_alt1_art3">
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art2_cpt_alt1_art3_cpt">
+            
+            
+            <p>Ficam revogados os arts. 56 e 57, da Lei no 9.096, de 19 de setembro de 1995</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art2_cpt_alt1_art4">
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art2_cpt_alt1_art4_cpt">
+            
+            
+            <p>Esta Lei entra em vigor na data de sua publicação</p>
+            
+          </Caput>
+          </Artigo>
+          </Alteracao>
+          </Caput>
+          </Artigo></Articulacao>
+        </Norma>
+      </ProjetoNorma>
+    </LexML>
