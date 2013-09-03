@@ -8,7 +8,7 @@
 	</parent>
 	
 	<artifactId>lexml-renderer-pdf</artifactId>
-	<version>0.4.5-SNAPSHOT</version>
+	<version>0.4.4-SNAPSHOT</version>
 	<name>lexml-renderer-pdf</name>
 	<description>Renderizador LexML em PDF</description>
 	
