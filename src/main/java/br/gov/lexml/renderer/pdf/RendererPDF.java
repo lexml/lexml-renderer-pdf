@@ -31,10 +31,10 @@ public class RendererPDF {
         ns.put("l","http://www.lexml.gov.br/1.0");
         xpath.setNamespaceURIs(ns);        
         Node n = xpath.selectSingleNode(document);
-        System.out.println("n:" + n);
-        System.out.println("attributes: " + ((Element) n).attributes());
+        //System.out.println("n:" + n);
+        //System.out.println("attributes: " + ((Element) n).attributes());
         String urn = ((Element)n).attributeValue("URN");
-        System.out.println("urn:" + urn);
+        //System.out.println("urn:" + urn);
         String[] urnComps = urn.split(":");
         String autoridade = urnComps[3];
         String tipoNorma = urnComps[4];
