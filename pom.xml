@@ -3,7 +3,7 @@
 	
 	<groupId>br.gov.lexml</groupId>
 	<artifactId>lexml-renderer-pdf</artifactId>
-	<version>0.4.5</version>
+	<version>0.4.6-SNAPSHOT</version>
 	<name>lexml-renderer-pdf</name>
 	<description>Renderizador LexML em PDF</description>
 	
@@ -18,7 +18,7 @@
 		<url>https://github.com/lexml/${project.artifactId}</url>
 		<developerConnection>scm:git:https://github.com/lexml/${project.artifactId}.git</developerConnection>
 		<connection>scm:git:https://github.com/lexml/${project.artifactId}.git</connection>
-        <tag>lexml-renderer-pdf-0.4.5</tag>
+        <tag>HEAD</tag>
     </scm>
 
 	<distributionManagement>
