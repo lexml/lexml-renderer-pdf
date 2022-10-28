@@ -3,7 +3,7 @@
 	
 	<groupId>br.gov.lexml</groupId>
 	<artifactId>lexml-renderer-pdf</artifactId>
-	<version>0.4.10-SNAPSHOT</version>
+	<version>0.4.10</version>
 	<name>LexML PDF Renderer</name>
 	<description>LexML Brazil document PDF renderering library.</description>
 	<url>https://github.com/lexml/lexml-renderer-pdf</url>
@@ -43,7 +43,7 @@
 		<url>https://github.com/lexml/lexml-renderer-pdf</url>
 		<developerConnection>scm:git:https://github.com/lexml/lexml-renderer-pdf.git</developerConnection>
 		<connection>scm:git:https://github.com/lexml/lexml-renderer-pdf.git</connection>
-               <tag>HEAD</tag>
+               <tag>lexml-renderer-pdf-0.4.10</tag>
        </scm>
 
 	<build>
