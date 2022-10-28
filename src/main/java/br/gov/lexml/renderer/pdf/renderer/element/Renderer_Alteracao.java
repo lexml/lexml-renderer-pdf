@@ -19,7 +19,9 @@ public class Renderer_Alteracao extends Renderer_ProtoParagraph {
         p.setFirstLineIndent(ITextUtil.cm2point(1));
         if(el.attributeValue("base") != null) {
         	try {
-				ctx.addToPdf(new Annotation("Documento base",el.attributeValue("base")));
+                Annotation a = new Annotation("Documento base",el.attributeValue("base"));
+
+				ctx.addToPdf(a);
 			} catch (DocumentException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

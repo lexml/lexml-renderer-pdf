@@ -46,10 +46,10 @@ public class CabecalhoDocumentoPDFDecorator extends AbstractPDFDecorator {
 
         BaseColor color = null;
         if (StringUtils.isEmpty(fontColor)) {
-            color = new BaseColor(0);
+            color = new BaseColor(0xff000000);
         }
         else {
-            color = new BaseColor(Integer.parseInt(fontColor, 16));
+            color = new BaseColor(0xff000000 | Integer.parseInt(fontColor, 16));
         }
 
         if (!StringUtils.isEmpty(title)) {

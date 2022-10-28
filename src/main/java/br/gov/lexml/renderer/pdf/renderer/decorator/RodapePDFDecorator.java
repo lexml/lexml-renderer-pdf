@@ -1,6 +1,7 @@
 
 package br.gov.lexml.renderer.pdf.renderer.decorator;
 
+import com.itextpdf.text.pdf.PdfGState;
 import org.apache.commons.lang.StringUtils;
 import org.dom4j.Element;
 
@@ -47,10 +48,10 @@ public class RodapePDFDecorator extends AbstractPDFDecorator {
         String fontColor = ctx.getString("decorator.rodape.font_color");
         color = null;
         if (StringUtils.isEmpty(fontColor)) {
-            color = new BaseColor(0);
+            color = new BaseColor(0xff000000);
         }
         else {
-            color = new BaseColor(Integer.parseInt(fontColor, 16));
+            color = new BaseColor(0xff000000 | Integer.parseInt(fontColor, 16));
         }
 
     }
@@ -65,9 +66,15 @@ public class RodapePDFDecorator extends AbstractPDFDecorator {
         PdfContentByte cb = pdfWriter.getDirectContent();
 
         // Linha
+        PdfGState gstate = new PdfGState();
+        gstate.setStrokeOpacity(1.0f);
+        gstate.setFillOpacity(1.0f);
+        cb.setGState(gstate);
+
         cb.moveTo(left, yLine);
         cb.lineTo(right, yLine);
         cb.setLineWidth(.1f);
+
         cb.stroke();
 
         // Texto
@@ -78,6 +85,10 @@ public class RodapePDFDecorator extends AbstractPDFDecorator {
             Phrase p = new Phrase();
             p.setFont(f);
             p.add(textoEsquerda.replace(PAGE_NUMBER_MARKUP, pageNumber));
+            PdfGState gstate2 = new PdfGState();
+            gstate2.setFillOpacity(1.0f);
+            gstate2.setStrokeOpacity(1.0f);
+            cb.setGState(gstate2);
             ColumnText.showTextAligned(cb, com.itextpdf.text.Element.ALIGN_LEFT, p, left, y, 0);
         }
 

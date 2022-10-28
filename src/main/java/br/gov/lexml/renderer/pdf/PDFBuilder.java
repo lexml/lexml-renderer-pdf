@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
+import com.itextpdf.text.pdf.*;
 import org.apache.commons.lang.StringUtils;
 import org.dom4j.Element;
 import org.dom4j.Node;
@@ -18,8 +19,6 @@ import com.itextpdf.text.Document;
 import com.itextpdf.text.Font;
 import com.itextpdf.text.Paragraph;
 import com.itextpdf.text.Rectangle;
-import com.itextpdf.text.pdf.PdfPageEventHelper;
-import com.itextpdf.text.pdf.PdfWriter;
 
 import br.gov.lexml.renderer.pdf.renderer.Renderer;
 import br.gov.lexml.renderer.pdf.renderer.RendererFactory;
@@ -76,7 +75,6 @@ public class PDFBuilder {
         decorators.init(ctx, root);
 
         // Necessário para PDF/A
-        pdfWriter.setPDFXConformance(PdfWriter.PDFA1B);
         createMetadata(doc, root, pdfWriter);
 
         doc.open();
